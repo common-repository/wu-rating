@@ -1,0 +1,19 @@
+@charset "utf-8";
+#rating{ width:100%; line-height:30px; font-size:18px;}
+#star-rating{margin: 0px;padding:0px;width: 150px;height: 30px;position: relative;background: url(staroff.png) top left repeat-x;}
+#star-rating li{list-style:none;padding:0px;margin:0px;float: left;}
+#star-rating li a{display:block;width:30px;height: 30px;text-decoration: none;text-indent: -9000px;z-index: 20;position: absolute;padding: 0px;}
+#star-rating li a:hover{background: url(staron.png) left center;z-index: 2;left: 0px;}
+#star-rating a.star1{left: 0px;}
+#star-rating a.star1:hover{width:30px;}
+#star-rating a.stars2{left:30px;}
+#star-rating a.stars2:hover{width: 60px;}
+#star-rating a.stars3{left: 60px;}
+#star-rating a.stars3:hover{width: 90px;}
+#star-rating a.stars4{left: 90px;} 
+#star-rating a.stars4:hover{width: 120px;}
+#star-rating a.stars5{left: 120px;}
+#star-rating a.stars5:hover{width: 150px;}
+.star_off,.star_on{width:30px;height:30px;}
+.star_off{background-image:url(staroff.png);}
+.star_on{background-image:url(staron.png);}
